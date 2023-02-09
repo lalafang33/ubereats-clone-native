@@ -1,12 +1,14 @@
 import React, {useLayoutEffect } from 'react'
 import { Text, View, SafeAreaView, Image, TextInput, ScrollView } from 'react-native'
 import { useNavigation } from '@react-navigation/native';
+import Categories from '../components/Categories.js';
 import { 
   ChevronDownIcon,
   UserIcon, 
   MagnifyingGlassIcon, 
   AdjustmentsVerticalIcon, 
 } from "react-native-heroicons/outline"
+import FeaturedRow from '../components/FeaturedRow.js';
 
 
 
@@ -53,13 +55,34 @@ export default function HomeScreen() {
         </View>
         
         {/* body */}
-        <ScrollView>
+        <ScrollView >
             {/* categories */}
-              
-            {/* featured row */}
+            <Categories/>
+
+            {/* featured */}
+            <FeaturedRow
+              id="1"
+              title='featured'
+              description='Paid placements from our partners'
+              featuredCategory="featured"
+            />
+
+            {/* Tasty Discount */}
+            <FeaturedRow
+              id="2"
+              title='Tasty Discounts'
+              description="everyone's been enjoying these juicy discounts!"
+              featuredCategory="discounts"
+            />
+
+            {/* Offers Near You */}
+            <FeaturedRow
+             id="3"
+              title='Offers Near You'
+              description='Why not support your local restaurants tonight!'
+              featuredCategory="featuoffersred"
+            />
         </ScrollView>
-
-
     </SafeAreaView>
   )
 }
