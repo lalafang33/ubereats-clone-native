@@ -62,10 +62,11 @@ export default function HomeScreen() {
             {/* featured */}
             <FeaturedRow
               id="1"
-              title='featured'
+              title='Featured'
               description='Paid placements from our partners'
               featuredCategory="featured"
             />
+         
 
             {/* Tasty Discount */}
             <FeaturedRow
@@ -74,6 +75,7 @@ export default function HomeScreen() {
               description="everyone's been enjoying these juicy discounts!"
               featuredCategory="discounts"
             />
+          
 
             {/* Offers Near You */}
             <FeaturedRow
@@ -82,6 +84,8 @@ export default function HomeScreen() {
               description='Why not support your local restaurants tonight!'
               featuredCategory="featuoffersred"
             />
+
+            
         </ScrollView>
     </SafeAreaView>
   )
