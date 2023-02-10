@@ -76,7 +76,7 @@ export default function HomeScreen() {
         </View>
         
         {/* body */}
-        <ScrollView >
+        <ScrollView>
             {/* categories */}
             <Categories/>
 

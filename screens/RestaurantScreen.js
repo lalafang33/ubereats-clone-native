@@ -6,12 +6,15 @@ import { urlFor } from '../sanity';
 import { ChevronRightIcon, MapPinIcon, QuestionMarkCircleIcon } from "react-native-heroicons/outline";
 import DishRow from '../components/DishRow';
 import BasketIcon from '../components/BasketIcon';
-
+import { useDispatch } from 'react-redux';
+import { useEffect } from 'react';
+import { setRestaurant } from '../features/restaurantSlice';
 
 
 
 export default function RestaurantScreen() {
   const navigation = useNavigation();
+  const dispatch = useDispatch();
 
   const {
     params:{
@@ -27,6 +30,25 @@ export default function RestaurantScreen() {
       lat,
     }
   } = useRoute();
+
+// keep track of what rest we are in 
+
+  useEffect(() => {
+    dispatch(
+      setRestaurant(({
+      id,
+      imgUrl,
+      title,
+      rating,
+      genre,
+      address,
+      short_description,
+      dishes,
+      long,
+      lat,
+    }))
+    )
+  },[dispatch])
 
   // getting rid of of our header
   useLayoutEffect(() => {
@@ -85,7 +107,7 @@ export default function RestaurantScreen() {
             <ChevronRightIcon color='#00CCBB'/>
           </TouchableOpacity>
 
-          <View>
+          <View className='pb-36' >
             <Text className='px-4 pb-4 pt-6 font-bold text-xl bg-gray-100' >
               Menu
             </Text>
