@@ -33,7 +33,10 @@ Overall, the Food Delivery Application Clone was created with the user in mind, 
 
 ## Final Product 
 
-!["Directions"](https://github.com/lalafang33/Transit-Better/blob/main/img/Directions.png)
-!["Landing Page"](https://github.com/lalafang33/Transit-Better/blob/main/img/Landing%20Page.png)
-!["Login Page"](https://github.com/lalafang33/Transit-Better/blob/main/img/Login%20page.png)
-!["Saved Addresses"](https://github.com/lalafang33/Transit-Better/blob/main/img/Saved%20Address.png)
+!["Home Page"](https://github.com/lalafang33/ubereats-clone-native/blob/main/images/readmeImg/IMG_7075.PNG)
+!["Restaurant Page"](https://github.com/lalafang33/ubereats-clone-native/blob/main/images/readmeImg/IMG_7076.PNG)
+!["Add Buttons"](https://github.com/lalafang33/ubereats-clone-native/blob/main/images/readmeImg/IMG_7077.PNG)
+!["Basket Page"](https://github.com/lalafang33/ubereats-clone-native/blob/main/images/readmeImg/IMG_7078.PNG)
+!["Loading Page Animation"](https://github.com/lalafang33/ubereats-clone-native/blob/main/images/readmeImg/IMG_7079.PNG)
+!["Order Page"](https://github.com/lalafang33/ubereats-clone-native/blob/main/images/readmeImg/IMG_7080.PNG)
+!["Order Page Name"](https://github.com/lalafang33/ubereats-clone-native/blob/main/images/readmeImg/IMG_7081.PNG)
