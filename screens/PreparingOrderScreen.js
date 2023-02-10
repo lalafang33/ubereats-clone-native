@@ -1,10 +1,20 @@
-import React from "react"; 
+import { useNavigation } from "@react-navigation/native";
+import React, { useEffect } from "react"; 
 import { View, Text, SafeAreaView } from 'react-native'; 
 import * as Animatable from "react-native-animatable"
 import * as Progress from "react-native-progress"
 
 
 export default function PreparingOrderScreen() {
+  const navigation = useNavigation(); 
+
+  useEffect(() => {
+    // after 5 sec nav to home
+    setTimeout(()=> {
+      navigation.navigate('Delivery')
+    }, 4000)
+  },[])
+
 
   return (
     <SafeAreaView className='bg-[#ffffff] flex-1 justify-center items-center'>
