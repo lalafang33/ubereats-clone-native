@@ -27,6 +27,10 @@ export default function FeaturedRow({id, title, description, featuredCategory}) 
       })
   },[id]);
 
+  restaurants?.map(restaurant => {
+    // console.log(restaurant)
+  })
+
   // console.log(restaurants);
   return (
     <View>

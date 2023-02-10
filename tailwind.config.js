@@ -2,7 +2,7 @@
 
 
 module.exports = {
-    content: ["../ubereats-clone/App.{js,jsx,ts,tsx}", "../ubereats-clone/screens/**/*.{js,jsx,ts,tsx}","../ubereats-clone/components/**/*.{js,jsx,ts,tsx}",
+    content: ["../ubereats-clone/App.{js,jsx,ts,tsx}", "../ubereats-clone/screens/**/*.{js,jsx,ts,tsx}","../ubereats-clone/components/**/*.{js,jsx,ts,tsx}", "../ubereats-clone/features/**/*.{js,jsx,ts,tsx}",
   ],
     theme: {
       extend: {},
